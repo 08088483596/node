@@ -1,0 +1,4 @@
+
+const Flutterwave = require('flutterwave-node-v3');
+const flw = new Flutterwave(process.env.FLWPUBK_TEST-ea8e8eaa35a4ed3fe3b6c99ece431ab4-X, process.env.FLWSECK_TEST-2c31237862740ba05a467bf59e1d975a-X);
+flw.Misc.bvn({bvn: "22711534258"})
